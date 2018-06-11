@@ -3,6 +3,19 @@ package practice.spring.com.entity;
 public class Employee {
 private String id;
 private String name;
+
+/**
+ * @return Employee
+ */
+public Employee() {}
+/**
+ * @return Employee
+ */
+public Employee(String id, String name) {
+	super();
+	this.id = id;
+	this.name = name;
+}
 /**
  * @return the id
  */
