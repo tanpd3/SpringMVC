@@ -26,6 +26,7 @@ public User(String id, String name, String email, Date dateOfBirth, String phone
 	}
 
 @NotNull(message = "Id may not be null")
+@NotBlank
 private String id;
 
 @NotBlank
